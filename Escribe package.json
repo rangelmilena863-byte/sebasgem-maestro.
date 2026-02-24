@@ -1,0 +1,11 @@
+{
+  "name": "sebasgem",
+  "version": "0.1.0",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.8.0",
+    "ajv-cli": "^4.0.0"
+  }
+}
