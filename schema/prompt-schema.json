@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Prompt Metadata",
+  "type": "object",
+  "required": ["id","name","version","owner","created_at","description","tags"],
+  "properties": {
+    "id": {"type":"string"},
+    "name": {"type":"string"},
+    "version": {"type":"string", "pattern":"^\\d+\\.\\d+\\.\\d+$"},
+    "owner": {"type":"string"},
+    "created_at": {"type":"string", "format":"date"},
+    "description": {"type":"string"},
+    "tags": {"type":"array","items":{"type":"string"}}
+  },
+  "additionalProperties": true
+}
